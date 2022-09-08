@@ -1,11 +1,3 @@
-/* zoomOut for the wallpaper
-picImage for the picture image
-picShadow for the picture shadow
-slideDown for the name
-slideUp for all other text elements
-fillUp for the hr line
-bounceIn for the contact button */
-
 @keyframes bounceIn {
   from {
     opacity: 0;
