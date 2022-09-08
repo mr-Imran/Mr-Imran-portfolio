@@ -1,0 +1,120 @@
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Muli:300,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 0 50px;
+}
+
+#app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	width: 1020px;
+}
+
+.project {
+	border-radius: 5px;
+	color: #333;
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px;
+	width: 300px;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.project:hover {
+	background-color: #f0f0f0;
+	transform: scale(1.05);
+}
+
+.project img {
+	border-radius: 5px;
+	max-width: 100%;
+}
+
+
+
+
+
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
+</style>
+
+
+<h1>#100Days100Projects - All Projects</h1>
+<div id="app"></div>
+
+
+<div class="floating-text">
+	Part of <a href="https://florin-pop.com/blog/2019/09/100-days-100-projects" target="_blank">#100Days100Projects</a>
+</div>
+
+<script>
+    const projects = [
+	{
+		nr: '001',
+		name: 'Random Meal Generator',
+		link: 'https://codepen.io/FlorinPop17/full/WNeggor'
+	},
+	{
+		nr: '002',
+		name: '2019 Mood Calendar',
+		link: 'https://codepen.io/FlorinPop17/full/eYOPdER'
+	}
+];
+
+const app = document.getElementById('app');
+const imgBaseURL = 'https://www.florin-pop.com/images/100Days100PRojects/Day ';
+
+projects.forEach(project => {
+	const title = `${project.name} - #${project.nr}`;
+	const imgURL = imgBaseURL + project.nr + '.jpg';
+	
+	const projectEl = document.createElement('a');
+	projectEl.classList.add('project');
+	projectEl.href = project.link;
+	projectEl.target = '_blank';
+
+	projectEl.innerHTML = `
+        <img src="${imgURL}" alt="${title}"/>
+		<p>
+			${title}
+		</p>
+    `;
+
+	app.appendChild(projectEl);
+});
+
+</script>
