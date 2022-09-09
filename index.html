@@ -20,7 +20,17 @@
   <title>NU Imran</title>
 </head>
 
-<body>
+<body onLoad="disableClick()">
+  <script>
+    function disableClick(){
+      document.onclick=function(event){
+        if (event.button == 2) {
+          alert('Right Click Message');
+          return false;
+        }
+      }
+    }
+  </script>
   <div id="wallpaper" class="wallpaper"
     data-image="https://scontent.fcgp3-1.fna.fbcdn.net/v/t39.30808-6/293507964_585508823091546_1236368292961393868_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeG_VA81GBu9P3Xf-fjdA-0NyIgtuSAWe1fIiC25IBZ7VyJa6Zn3q88NWEh1UoFSx7EiqFQpt0McGzvUSEpOyiMH&_nc_ohc=Z66xoEFd9K8AX9JhXR7&_nc_oc=AQmxRvHkegI89nJBb_uWCq__lQuOWjR_3Hjw9GyFYsB80gAihg7twAkiAWmlypoBDVs&tn=f4Cs_93CNAQAzoDw&_nc_ht=scontent.fcgp3-1.fna&oh=00_AT9zIQwfEtulkzraDnsDFF7F5dSLb_MH2PW1sYx73w-_7g&oe=631DC263">
   </div>
@@ -78,41 +88,28 @@
     </style>
   </noscript>
 <script>
-    $(document).ready(function() {
-        document.onkeydown = function(e){
-            if (e.ctrlKey &&
-                (e.keyCode === 67 ||
-                    e.keyCode === 86 ||
-                    e.keyCode === 85 ||
-                    e.keyCode === 117)) {
-                return false;
-            } else {
-                return true;
-            }
-        };
-    });
-window.addEventListener("blur", () => {document.title = "I'm Waiting for u";});window.addEventListener("focus", () => {document.title = "Mr Imran";});
-
-document.onkeydown = function(e) {
-    if(e.keyCode == 123) {
-     return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-     return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-     return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-     return false;
-    }
-
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
-     return false;
-    }      
- }
-
+  window.addEventListener("blur", () => {
+    document.title = "I'm Waiting for u";
+});window.addEventListener("focus", () => {
+    document.title = "Mr Imran";
+});
 </script>
+<script>
+  $(document).ready(function() {
+      document.onkeydown = function(e){
+          if (e.ctrlKey &&
+              (e.keyCode === 67 ||
+                  e.keyCode === 86 ||
+                  e.keyCode === 85 ||
+                  e.keyCode === 117)) {
+              return false;
+          } else {
+              return true;
+          }
+      };
+  });
+  </script>
+  
 </body>
 
 </html>
