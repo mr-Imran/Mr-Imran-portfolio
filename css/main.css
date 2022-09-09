@@ -208,3 +208,16 @@ a {
   opacity: 1;
   transform: scale(1.1);
 }
+#pp{
+  color: #9013fe;
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  
+
+}
+
+#pp:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
