@@ -197,6 +197,14 @@ a {
   transition-property: opacity, transform;
   width: 2rem;
   will-change: opacity, transform;
+  box-shadow:
+  1.3px 12.1px 13.8px rgba(0, 0, 0, 0.129),
+  2.3px 21px 33.3px rgba(0, 0, 0, 0.186),
+  3.3px 29.9px 62.6px rgba(0, 0, 0, 0.23),
+  4.5px 40.9px 111.7px rgba(0, 0, 0, 0.274),
+  6.3px 57.7px 208.9px rgba(0, 0, 0, 0.331),
+  11px 100px 500px rgba(0, 0, 0, 0.46)
+;
 }
 
 .social a:hover {

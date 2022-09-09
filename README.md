@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **react**
 
-- 🤝 Recent Project [Halka Gorib [ wordpress ]](https://halkagorib.com/)
+- 🤝 Recent Projects [Halka Gorib [ wordpress ]](https://halkagorib.com/) | [ CTRP ](https://www.ht-roleplaybangladesh.xyz/) | 
 
 - 👨‍💻 All of my projects are available at [http://mrimran.xyz/](http://mrimran.xyz/)
 
