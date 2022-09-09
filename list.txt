@@ -1,0 +1,30 @@
+Detect When Users Switch Tabs using JavaScript
+
+https://dev.to/j471n/detect-when-users-switch-tabs-using-javascript-3mi3
+
+<script>
+
+window.addEventListener("blur", () => {
+    document.title = "I'm Waiting for u";
+});
+
+window.addEventListener("focus", () => {
+    document.title = "Mr Imran";
+});
+
+</script>
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === 'visible') {
+    music.play();
+  } else {
+    music.pause();
+  }
+});
+
+
+
+https://shadows.brumm.af/
+https://smalldev.tools/share-bin
+https://codemyui.com/
+blob:https://carbon.now.sh/2c69a175-4431-40ab-bc70-05ba27788895
