@@ -2,11 +2,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mr-imran&label=Profile%20views&color=0e75b6&style=flat" alt="mr-imran" /> </p>
 
-- 🔭 I’m currently working on [Chittagong university automation](https://cu-auto.mrimran.xyz/)
+- 🔭 I’m currently working on [Chittagong university automation](https://cu.mrimran.xyz/)
 
 - 🌱 I’m currently learning **react**
 
-- 🤝 Recent Projects [Halka Gorib [ wordpress ]](https://halkagorib.com/) | [ CTRP ](https://www.ht-roleplaybangladesh.xyz/) | 
+- 🤝 Recent Projects [Halka Gorib [ wordpress ]](https://halkagorib.com/) | [ CTRP ](https://www.ht-roleplaybangladesh.xyz/) |  [ Deirastarit ] (http://deirastarit.com/)
 
 - 👨‍💻 All of my projects are available at [http://mrimran.xyz/](http://mrimran.xyz/)
 
