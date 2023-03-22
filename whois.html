@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Nizam Uddin Imran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff4545;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            box-shadow:
+                1px 3.6px 5.2px rgba(0, 0, 0, -0.028),
+                2.4px 8.3px 12px rgba(0, 0, 0, -0.018),
+                4.4px 14.9px 21.6px rgba(208, 49, 49, 0.009),
+                7.2px 24.7px 35.8px rgba(213, 45, 45, 0.046),
+                11.9px 40.7px 59px rgba(205, 38, 38, 0.093),
+                20.8px 71.2px 103.1px rgba(0, 0, 0, 0.147),
+                45px 154px 223px rgba(225, 26, 26, 0.21);
+        }
+
+        nav a {
+            color: black;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+
+        }
+
+        nav a:hover {
+            color: #ff4545;
+            font-weight: bold;
+        }
+
+        .container {
+            margin: 50px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* Animations */
+        .fade-in {
+            animation: fade-in 1s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .slide-up {
+            animation: slide-up 0.5s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes slide-up {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Colors */
+        .about-card {
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            max-width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            box-shadow:
+                0px 3.4px 4.2px rgba(0, 0, 0, 0.05),
+                0px 8.5px 10.7px rgba(0, 0, 0, 0.068),
+                0px 17.4px 21.8px rgba(0, 0, 0, 0.087),
+                0px 35.8px 44.9px rgba(0, 0, 0, 0.111),
+                0px 98px 123px rgba(0, 0, 0, 0.14);
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+
+        }
+
+        .about-card:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .about-card:nth-child(odd) h3 {
+            color: #ff4545;
+        }
+
+        .about-card:nth-child(odd) p {
+            color: #666;
+        }
+
+        .about-card:nth-child(even) {
+            background-color: #ff4545;
+        }
+
+        .about-card:nth-child(even) h3 {
+            color: #fff;
+        }
+
+        .about-card:nth-child(even).about-card:hover {
+            transform: translateY(-5px) scale(1.05);
+        }
+
+        /* Media queries */
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .about-card {
+                margin: 10px;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <h1 class="fade-in">About Us</h1>
+        </header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/contact">Contact</a>
+        </nav>
+
+        <div class="container">
+            <h2 class="slide-up">Who is Nizam Uddin Imran?</h2>
+            <p class="fade-in">I'm a web developer. I know how to use HTML, CSS, and JavaScript to create user
+                interfaces and interactive web pages.</p>
+
+            <h2 class="slide-up">Secret City Battleground</h2>
+            <p class="fade-in">Secret City Battleground Best Bangladeshi Battleground Server| 20ms | FPS BOOST |
+                Unlimited Car | PvP Custom Maps & More.</p>
+
+            <h2 class="slide-up">About Team Secret</h2>
+            <p class="fade-in">Team Secret is a web development team based in Bangladesh. We specialize in PVP server,
+                cloud hosting, website design & bug fix, Wordpress design, Discord bot, Nodejs, Data Analyze and more.
+                Our team is passionate about creating high-quality web solutions for our clients and we are committed to
+                delivering exceptional customer service. We pride ourselves on staying up-to-date with the latest web
+                technologies and trends, and we constantly strive to improve our skills and knowledge. At Team Secret,
+                we work closely with our clients to understand their unique needs and objectives, and we tailor our
+                solutions to meet those needs. We believe that good communication is the key to success, and we always
+                keep our clients informed throughout the development process. If you're looking for a reliable and
+                experienced web development team, look no further than Team Secret.</p>
+
+            <div class="fade-in slide-up" style="display: flex; justify-content: center;">
+                <div class="about-card">
+                    <h3>What we do</h3>
+                    <p>We provide web development services such as PVP server, cloud hosting, website design & bug fix,
+                        Wordpress design, Discord bot, Nodejs, Data Analyze and more.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Our process</h3>
+                    <p>We work closely with our clients to understand their needs and objectives, and we tailor our
+                        solutions to meet those needs. We believe that good communication is the key to success, and we
+                        always keep our clients informed throughout the development process.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Our team</h3>
+                    <p>Our team consists of experienced web developers who are passionate about creating high-quality
+                        web solutions. We stay up-to-date with the latest web technologies and trends, and we constantly
+                        strive to improve our skills and knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
