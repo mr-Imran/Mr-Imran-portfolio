@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://mrimran.xyz/</loc>
+        <lastmod>2023-03-23</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mrimran.xyz/whois</loc>
+        <lastmod>2023-03-22</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mrimran.xyz/contact</loc>
+        <lastmod>2023-03-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mrimran.xyz/projects</loc>
+        <lastmod>2023-03-20</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>
