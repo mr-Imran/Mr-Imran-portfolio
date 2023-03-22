@@ -1,10 +1,4 @@
-*.doc
-*.docx
-*.log
-*.msg
-*.pages
-*.rtf
-*.txt
-*.wpd
-*.wps
+# Ignore HTML, XML, and TXT files
 *.html
+*.xml
+*.txt
