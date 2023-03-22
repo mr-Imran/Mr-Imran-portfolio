@@ -225,6 +225,15 @@ a {
 
 }
 
+#pps{
+  color: #1da9ea;
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  
+
+}
+
 #pp:hover {
   opacity: 1;
   transform: scale(1.05);
