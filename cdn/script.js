@@ -3,8 +3,9 @@ const form = document.querySelector('form');
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
-  const websiteURL = document.querySelector('input[type="text"]').value;
 
+  const websiteURL = document.querySelector('input[type="text"]').value;
+  console.log(`Entered domain name: ${websiteURL}`);
   // Check domain age
   const response1 = await fetch(`https://api.domainsdb.info/v1/domains/search?domain=${websiteURL}`);
   const data1 = await response1.json();
