@@ -31,6 +31,4 @@ form.addEventListener('submit', async (e) => {
     const technologies = BuiltWith && BuiltWith.allTechnology;
     console.log(`Website framework: ${technologies}`);
   }, 2000);
-
- 
 });
