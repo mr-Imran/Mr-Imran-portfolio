@@ -16,11 +16,6 @@ form.addEventListener('submit', async (e) => {
   const data2 = await response2.text();
   console.log(`Hosting information: ${data2}`);
 
-  // Check website speed
-  const response3 = await fetch(`https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${websiteURL}`);
-  const data3 = await response3.json();
-  const speedScore = data3.lighthouseResult.categories.performance.score;
-  console.log(`Website speed score: ${speedScore}`);
 
   // Check website framework
   const script = document.createElement('script');
@@ -31,4 +26,6 @@ form.addEventListener('submit', async (e) => {
     const technologies = BuiltWith && BuiltWith.allTechnology;
     console.log(`Website framework: ${technologies}`);
   }, 2000);
+
+
 });
