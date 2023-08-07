@@ -1,0 +1,27 @@
+/* 
+
+Name : Mohammad Nizam Uddin Imran
+Version : 1.0.0
+
+*/
+
+
+/* Header Section */
+.im_header1 {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.im_header2 {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
