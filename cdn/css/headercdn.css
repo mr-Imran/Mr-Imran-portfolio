@@ -25,3 +25,13 @@ Version : 1.0.0
     width: 100%;
     z-index: 999;
 }
+
+.im_header3 {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
