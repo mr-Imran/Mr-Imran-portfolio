@@ -1,3 +1,25 @@
 {
-    "bio1" : "This is a test bio."
-}
+    "names": [
+      "HappyBot",
+      "SadBot",
+      "FunnyBot",
+      "GrumpyBot",
+      "CheerfulBot",
+      "ConfusedBot",
+      "SarcasticBot",
+      "CrazyBot",
+      "MellowBot",
+      "ExcitedBot",
+      "BoredBot",
+      "AngryBot",
+      "GloomyBot",
+      "SillyBot",
+      "EnergeticBot",
+      "MelancholyBot",
+      "PlayfulBot",
+      "AnxiousBot",
+      "EnthusiasticBot",
+      "SleepyBot"
+    ]
+  }
+  
